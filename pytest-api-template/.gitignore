@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Pytest and Reports
+.pytest_cache/
+reports/
+logs/
+.allure_results/
+
+# IDE files
+.idea/
+.vscode/

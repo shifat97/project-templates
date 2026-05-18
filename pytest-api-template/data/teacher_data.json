@@ -1,0 +1,9 @@
+{
+    "default_teacher": {
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "department": "CSE",
+        "teacherId": 12345678,
+        "designation": "Professor"
+    }
+}
