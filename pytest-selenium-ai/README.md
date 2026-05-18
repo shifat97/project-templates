@@ -21,36 +21,45 @@ A robust, modern UI automation framework built with **Python**, **Pytest**, and 
 ## 🛠️ Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd pytest-selenium-ai
-   ```
+
+    ```bash
+    git clone git@github.com:shifat97/project-templates.git
+
+    OR
+
+    Download:
+
+    https://github.com/shifat97/project-templates/tree/main/pytest-selenium-ai
+    ```
 
 2. **Create and activate a virtual environment**:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
+
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    ```
 
 3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Setup Environment Variables**:
    Copy the example environment file (if provided) or create a `.env` file in the root directory:
-   ```bash
-   BASE_URL=https://example.com
-   BROWSER=chrome
-   HEADLESS=true
-   TIMEOUT=10
-   VALID_EMAIL=user@example.com
-   VALID_PASSWORD=Secret123!
-   ```
+    ```bash
+    BASE_URL=https://example.com
+    BROWSER=chrome
+    HEADLESS=true
+    TIMEOUT=10
+    VALID_EMAIL=user@example.com
+    VALID_PASSWORD=Secret123!
+    ```
 
 ## 🏃 Running Tests
 
 ### CLI Quick Reference
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -78,6 +87,7 @@ pytest --html=reports/report.html --self-contained-html
 ```
 
 ### View Reports
+
 After execution, the HTML report is generated at `reports/report.html`. Screenshots for failed tests are stored in `reports/screenshots/`.
 
 ## 📂 Project Structure
@@ -109,4 +119,4 @@ pytest-selenium-ai/
 
 ---
 
-*Happy Testing!* 🧪
+_Happy Testing!_ 🧪
